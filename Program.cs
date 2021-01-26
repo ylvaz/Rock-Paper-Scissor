@@ -18,12 +18,19 @@ namespace Rock_Paper_Scissor
             Random numberGeneratorComputer = new Random();
             int randomNumber = numberGeneratorComputer.Next(0,3);
             string computerHand = hands[randomNumber];
-            
-            int playerPoints = 0;
-            int computerPoints = 0;
              
-            Console.WriteLine("Computer rolled");
+            Console.WriteLine("Computer rolled...");
             Console.WriteLine(computerHand);
+
+            switch (playerHand && computerHand)
+            {
+                
+                case "Rock" + "Rock":
+                Console.WriteLine("It's a tie");
+                break;
+
+                default:
+            }
 
 
 
