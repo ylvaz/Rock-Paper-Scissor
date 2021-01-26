@@ -8,17 +8,26 @@ namespace Rock_Paper_Scissor
         static void Main(string[] args)
         {
             
-            
-            Console.WriteLine("Welcome to Rock, Paper, Scissor!");
-
             string [] hands = { "Rock", "Paper", "Scissor" };
-            Console.WriteLine("Do you choose Rock, Paper or Scissor?");
-            string playerHand;
-            playerHand = Console.ReadLine();
             Random numberGeneratorComputer = new Random();
+           
+            Console.WriteLine("Welcome to Rock, Paper, Scissor!");
+            Console.WriteLine("Please write a number of how many rounds you want to play");
+            int rounds = Convert.ToInt32(Console.ReadLine());
+            
+            
+            int youPoints = 0;
+            int computerPoints = 0;
+
+        for (int countingPoints = 1; countingPoints <= rounds; countingPoints++)
+        {
+            
+            Console.WriteLine("Do you choose Rock, Paper or Scissor?");
+            string playerHand = Console.ReadLine();
+            
             int randomNumber = numberGeneratorComputer.Next(0,3);
             string computerHand = hands[randomNumber];
-             
+     
             Console.WriteLine("Computer rolled...");
             Console.WriteLine(computerHand);
 
@@ -32,10 +41,12 @@ namespace Rock_Paper_Scissor
                 }
                 else if (computerHand == "Paper")
                 {
+                   computerPoints++;
                    Console.WriteLine("Computer wins!"); 
                 } 
                 else if (computerHand == "Scissor")
                 {
+                   youPoints++;
                    Console.WriteLine("You win!"); 
                 }
                 break;
@@ -43,6 +54,7 @@ namespace Rock_Paper_Scissor
                 case "Paper":
                 if (computerHand == "Rock")
                 {
+                   youPoints++; 
                    Console.WriteLine("You win!");  
                 }
                 else if (computerHand == "Paper")
@@ -51,6 +63,7 @@ namespace Rock_Paper_Scissor
                 } 
                 else if (computerHand == "Scissor")
                 {
+                   computerPoints++;
                    Console.WriteLine("Computer wins!"); 
                 }
                 break;
@@ -58,10 +71,12 @@ namespace Rock_Paper_Scissor
                 case "Scissor":
                 if (computerHand == "Rock")
                 {
+                   youPoints++;
                    Console.WriteLine("You win!");  
                 }
                 else if (computerHand == "Paper")
                 {
+                   computerPoints++;
                    Console.WriteLine("Computer wins!"); 
                 } 
                 else if (computerHand == "Scissor")
@@ -70,13 +85,14 @@ namespace Rock_Paper_Scissor
                 }
                 break;
     
-
-  
                 default:
                 break;
             }
+        }
 
-
+            Console.WriteLine("And the results are..");
+            Console.WriteLine("Computer: " + computerPoints);
+            Console.WriteLine("You: " + youPoints);
 
         }
     }
