@@ -9,10 +9,10 @@ namespace Rock_Paper_Scissor
         {
             
             
-            Console.WriteLine("Welcome to Rock, paper, scissor!");
+            Console.WriteLine("Welcome to Rock, Paper, Scissor!");
 
             string [] hands = { "Rock", "Paper", "Scissor" };
-            Console.WriteLine("Do you choose rock, paper or scissor?");
+            Console.WriteLine("Do you choose Rock, Paper or Scissor?");
             string playerHand;
             playerHand = Console.ReadLine();
             Random numberGeneratorComputer = new Random();
@@ -22,14 +22,58 @@ namespace Rock_Paper_Scissor
             Console.WriteLine("Computer rolled...");
             Console.WriteLine(computerHand);
 
-            switch (playerHand && computerHand)
+            switch (playerHand)
             {
                 
-                case "Rock" + "Rock":
-                Console.WriteLine("It's a tie");
+                case "Rock":
+                if (computerHand == "Rock")
+                {
+                   Console.WriteLine("It's a tie");  
+                }
+                else if (computerHand == "Paper")
+                {
+                   Console.WriteLine("Computer wins!"); 
+                } 
+                else if (computerHand == "Scissor")
+                {
+                   Console.WriteLine("You win!"); 
+                }
                 break;
 
+                case "Paper":
+                if (computerHand == "Rock")
+                {
+                   Console.WriteLine("You win!");  
+                }
+                else if (computerHand == "Paper")
+                {
+                   Console.WriteLine("It's a tie"); 
+                } 
+                else if (computerHand == "Scissor")
+                {
+                   Console.WriteLine("Computer wins!"); 
+                }
+                break;
+
+                case "Scissor":
+                if (computerHand == "Rock")
+                {
+                   Console.WriteLine("You win!");  
+                }
+                else if (computerHand == "Paper")
+                {
+                   Console.WriteLine("Computer wins!"); 
+                } 
+                else if (computerHand == "Scissor")
+                {
+                   Console.WriteLine("It's a tie"); 
+                }
+                break;
+    
+
+  
                 default:
+                break;
             }
 
 
