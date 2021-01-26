@@ -1,0 +1,12 @@
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/bin/Debug/netcoreapp3.1/Rock-Paper-Scissor.deps.json
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/bin/Debug/netcoreapp3.1/Rock-Paper-Scissor.runtimeconfig.json
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/bin/Debug/netcoreapp3.1/Rock-Paper-Scissor.runtimeconfig.dev.json
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/bin/Debug/netcoreapp3.1/Rock-Paper-Scissor.dll
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/bin/Debug/netcoreapp3.1/Rock-Paper-Scissor.pdb
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/obj/Debug/netcoreapp3.1/Rock-Paper-Scissor.csprojAssemblyReference.cache
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/obj/Debug/netcoreapp3.1/Rock-Paper-Scissor.AssemblyInfoInputs.cache
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/obj/Debug/netcoreapp3.1/Rock-Paper-Scissor.AssemblyInfo.cs
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/obj/Debug/netcoreapp3.1/Rock-Paper-Scissor.csproj.CoreCompileInputs.cache
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/obj/Debug/netcoreapp3.1/Rock-Paper-Scissor.dll
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/obj/Debug/netcoreapp3.1/Rock-Paper-Scissor.pdb
+/Users/ylvazacharoff/Documents/GitHub/Rock-Paper-Scissor/obj/Debug/netcoreapp3.1/Rock-Paper-Scissor.genruntimeconfig.cache

@@ -16,14 +16,14 @@ namespace Rock_Paper_Scissor
             string playerHand;
             playerHand = Console.ReadLine();
             Random numberGeneratorComputer = new Random();
-            int randomNumber = numberGeneratorComputer.Next(0, 3);
+            int randomNumber = numberGeneratorComputer.Next(0,3);
             string computerHand = hands[randomNumber];
             
             int playerPoints = 0;
             int computerPoints = 0;
              
             Console.WriteLine("Computer rolled");
-            Console.WriteLine(randomNumber);
+            Console.WriteLine(computerHand);
 
 
 
